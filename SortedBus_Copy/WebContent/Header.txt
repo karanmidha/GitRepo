@@ -1,0 +1,51 @@
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />	
+<script src="js/jquery.min.js"> </script>
+<!--webfonts-->
+  <link href='//fonts.googleapis.com/css?family=PT+Mono|Abril+Fatface' rel='stylesheet' type='text/css'>
+<!--//webfonts-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+
+
+
+
+<div id="home" class="header two">
+					<div class="top-header">
+						<div class="container">
+					     <div class="top-menu">
+							<span class="menu"> </span>
+								<ul class="cl-effect-16">
+								 <li><a href="index.html" data-hover="Home">Home</a></li>
+								<li><a  href="about.html" data-hover="About">About</a></li>
+							
+								<li><a href="contact.html" data-hover="Contact">Contact</a></li>
+								  <div class="clearfix"></div>
+								</ul>
+							</div>
+							<div class="logo two">
+							  <a href="index.html"><h1>Sorted<span>Bus</span></h1></a>
+						    </div>
+							<!-- script-for-menu -->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+								<!-- script-for-menu -->
+							<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
