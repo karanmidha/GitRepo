@@ -8,6 +8,7 @@ import redbus.model.pojo.Schedule;
 
 public interface PassengerDao {
 //The pId will be generated using a for loop at the time of sign up. The value of pId will be kept as static.
+	//Another comment added
 	public Passenger insertPassenger(Passenger p);// Includes implicit calling to a function that generates PID. This PID value will be used in the Passenger class by using getter function.
 	public Passenger signIn(Passenger p); 
 
