@@ -237,6 +237,9 @@ public class PassengerDaoImpl implements PassengerDao {
 		return maxPid;
 	}
 	
+	public void deletePass(){
+		
+	}
 }
 
 
